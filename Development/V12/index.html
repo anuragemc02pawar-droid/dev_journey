@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors by Anurag</title>
+    <style>
+        .red{
+            background-color: red;
+        }
+        #green{
+            color: green;
+        }
+        div>p{
+            background-color: brown;
+            color:blue;
+        }
+        div p{
+            background-color: black
+            color yellow;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        a:visited{
+            color: red;
+        }
+        a:link{
+            color: blue;
+        }
+        a:active{
+            color:black;
+        }
+        a:hover{
+            background-color: beige;
+        }
+        p:first-child{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="red" id="green">
+        I am div
+        <p>I am child of div</p>
+    </div>
+
+    <div class="red">
+        <article>
+            <p>I am descendant of div</p>
+        </article>
+    </div>
+    <main>
+        <p>I am first child</p>
+        <p>I am second child</p>
+    </main>
+    <a href="https://www.chatgpt.com">Open AI</a>
+    <a href="https://www.perplexity.com">Indian AI</a>
+</body>
+</html>
