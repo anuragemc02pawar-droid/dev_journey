@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascade and Specificity by Anurag</title>
+    <style>
+        h1{
+            color: violet;
+            color: aquamarine !important;
+        }
+        .red{
+            color: red;
+        }
+        .cblue{
+            color: blue;
+        }
+        .cyellow{
+            color: yellow;
+        }
+        p{
+            color: black !important;
+        }
+        [data-a=x]{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="red cblue cyellow" data-a="x">Specificity of different selectors:
+        universal-0 
+        element-1
+        class/attribute-10 
+        id-100 
+        inline-1000 
+    </h1>
+    <div>
+        <p style="color: fuchsia;">This style will be overwritten by important </p>
+    </div>
+</body>
+</html>
