@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+         html{
+            font-size: 12;
+        }
+        .box{
+            box-sizing: border-box;
+            border: 2px solid red;
+            width: 100vw;
+            margin:auto;
+            background-color: aquamarine;
+        }
+        .container{
+            box-sizing: border-box;
+            border: 2px solid red;
+            width: 80vw;
+            height: 80vh;
+            margin: 23px auto;
+            font-size: 18px;
+            background-color: aquamarine;
+            min-height: 80vh;
+
+        }
+        .container p{
+            font-size: 2em;
+        }
+        .block{
+            box-sizing: border-box;
+            border: 2px solid red;
+            width: 80vw;
+            height: 80vh;
+            margin: 23px auto;
+            font-size: 2rem;
+            background-color: aquamarine;
+
+        }
+        .mycont{
+            box-sizing: border-box;
+            border: 2px solid rgb(154, 55, 55);
+            margin: 23px auto;
+            font-size: 2rem;
+            width: 100vmax;
+            background-color: rgb(128, 197, 45);
+
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="box">This is a box
+    </div>
+    <div class="container">
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quam quasi, non porro, soluta vero atque numquam impedit aliquam animi optio quod nisi, iusto doloremque eligendi. Cumque pariatur delectus consectetur minima optio doloribus quia at id. Excepturi, vero! Pariatur doloribus similique praesentium facere temporibus culpa alias non, assumenda delectus velit quis ad nisi, quaerat quae. Tempora.
+        <p>
+    </div>
+    <div class="block">
+        <p>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium nulla ex labore eaque ad, harum error vero officia? Quaerat earum consequatur voluptate ullam eligendi iusto optio impedit in consectetur esse laudantium est ex quod obcaecati magni, adipisci blanditiis ducimus et. Accusantium dicta ab ex excepturi?
+        </p>
+    </div>
+    <div class="mycont">Vmin means use vh or vw which one is smaller</div>
+</body>
+</html>
