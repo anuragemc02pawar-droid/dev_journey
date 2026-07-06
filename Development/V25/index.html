@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selectors by Anurag</title>
+    <style>
+        .box:first-child{
+            background-color: yellow;
+        }
+        .box::first-line{
+            background-color: red;
+        }
+        .boxes *{
+            color: blue;
+        }
+        .box:nth-child(even){
+            background-color: bisque;
+        }
+        .box:nth-last-child(2){
+            background-color: greenyellow;
+        }
+        .boxes::before{
+            content: "Hello bro";
+        }
+        ::selection{
+            color: black;
+            background-color: rgb(255, 0, 191);
+        }
+        input::placeholder{
+            background-color: gray;
+            color: black;
+            padding: 2px;
+        }        
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam pariatur nisi aspernatur alias? A exercitationem soluta aliquid similique natus voluptates consequuntur neque illo maiores rem quam, et veniam minima cum fugiat harum at possimus in facilis qui? Aut, doloremque. Cupiditate, distinctio!</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam pariatur nisi aspernatur alias? A exercitationem soluta aliquid similique natus voluptates consequuntur neque illo maiores rem quam, et veniam minima cum fugiat harum at possimus in facilis qui? Aut, doloremque. Cupiditate, distinctio!</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam pariatur nisi aspernatur alias? A exercitationem soluta aliquid similique natus voluptates consequuntur neque illo maiores rem quam, et veniam minima cum fugiat harum at possimus in facilis qui? Aut, doloremque. Cupiditate, distinctio!</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam pariatur nisi aspernatur alias? A exercitationem soluta aliquid similique natus voluptates consequuntur neque illo maiores rem quam, et veniam minima cum fugiat harum at possimus in facilis qui? Aut, doloremque. Cupiditate, distinctio!</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam pariatur nisi aspernatur alias? A exercitationem soluta aliquid similique natus voluptates consequuntur neque illo maiores rem quam, et veniam minima cum fugiat harum at possimus in facilis qui? Aut, doloremque. Cupiditate, distinctio!</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam pariatur nisi aspernatur alias? A exercitationem soluta aliquid similique natus voluptates consequuntur neque illo maiores rem quam, et veniam minima cum fugiat harum at possimus in facilis qui? Aut, doloremque. Cupiditate, distinctio!</div>
+    </div>
+    <input type="text" placeholder="Type my name here">
+</body>
+</html>
