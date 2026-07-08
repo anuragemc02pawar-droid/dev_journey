@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition by Anurag</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            height: 40vh;
+            width: 50vw;
+            background-color: aquamarine;
+        }
+        .box{
+            height: 4vh;
+            width: 5vw;
+            background-color: bisque;
+            transition-timing-function: ease-in-out;
+            transition-property: background-color, transform;
+            transition-duration: 5s;
+            transition-delay: 1s;
+        }
+        .transform{
+            transform: translateX(22vw) translateY(17vh);
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box transform">
+
+        </div>
+    </div>
+</body>
+</html>
