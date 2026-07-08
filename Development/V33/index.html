@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation by Anurag</title>
+    <style>
+        .container{
+            background-color: bisque;
+            height: 80vh;
+            width: 30vw;
+        }
+        .box{
+            width: 34px;
+            height: 45px;
+            background-color: rgb(0, 255, 102);
+            animation-name: anurag;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes anurag{
+            from{
+                background-color: rgb(255, 0, 225);
+            }
+            to{
+                transform: translateX(1000px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            BOX
+        </div>
+    </div>
+</body>
+</html>
