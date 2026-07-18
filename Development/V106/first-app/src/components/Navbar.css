@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(75, 131, 137);
+}
+
+nav, ul{
+    display: flex;
+    background-color: beige;
+}
+li{
+    list-style: none;
+}
+ul{
+    gap: 34px;
+}
+nav{
+    padding: 13px;
+}
