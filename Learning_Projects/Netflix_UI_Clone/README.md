@@ -38,8 +38,8 @@ A fully responsive Netflix-inspired homepage built using HTML and CSS. This proj
 
 ## What I Learned
 
-- Building responsive layouts using CSS
-- Working with Flexbox and Grid
+- Building responsive layouts using CSS.
+- Working with Flexbox and Grid.
 - Creating modern UI components.
 - Improving code organization and maintainability.
 - Adapting designs for multiple screen sizes.
